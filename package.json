@@ -1,0 +1,24 @@
+{
+  "name": "heroku-app_to_github",
+  "version": "1.0.0",
+  "description": "tentative de publier sur gitHub.com ET de déployer sur Heroku",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghjuliamaria/newsletter.git"
+  },
+  "author": "jm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ghjuliamaria/newsletter/issues"
+  },
+  "homepage": "https://github.com/Ghjuliamaria/newsletter#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "request": "^2.88.2"
+  }
+}
